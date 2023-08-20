@@ -10,8 +10,9 @@ export const StyledForm = styled(Form)`
 `;
 
 export const StyledField = styled(Field)`
-  padding: 4px 4px 4px 8px;
+  padding: 12px 12px 12px 14px;
   width: 300px;
+
   border-radius: 4px;
   outline: none;
   border: none;
@@ -23,6 +24,7 @@ export const Label = styled.label`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  font-size: 24px;
 `;
 
 export const StyledError = styled(ErrorMessage)`
@@ -36,7 +38,7 @@ export const Button = styled.button`
   min-width: 50px;
   margin-left: auto;
   margin-right: auto;
-
+  font-size: 22px;
   border: none;
   background: transparent;
   text-align: center;

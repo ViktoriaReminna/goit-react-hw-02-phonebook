@@ -5,6 +5,7 @@ export const ContactListItem = styled.li`
   align-items: center;
   padding: 8px;
   margin: 8px;
+  font-size: 28px;
 
   width: 100%;
   button {
@@ -15,6 +16,7 @@ export const ContactListItem = styled.li`
     border-radius: 4px;
     cursor: pointer;
     margin-left: 20px;
+    font-size: 24px;
 
     &:hover {
       background-color: #7fff00;
